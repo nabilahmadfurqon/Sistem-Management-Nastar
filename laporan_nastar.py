@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 # Load dataset
-file_path = "data/Laporan.xlsx"
+file_path = "data/Laporan Nastar.xlsx"
 xls = pd.ExcelFile(file_path)
 df_sales = pd.read_excel(xls, sheet_name="Sheet1")
 df_costs = pd.read_excel(xls, sheet_name="Sheet2")
