@@ -7,7 +7,6 @@ file_path = "data/Laporan Nastar3.xlsx"
 xls = pd.ExcelFile(file_path)
 df_sales = pd.read_excel(xls, sheet_name="Sheet1")
 df_costs = pd.read_excel(xls, sheet_name="Sheet2")
-
 # Harga per toples
 harga_toples = {"600g": 70000, "550g": 65000, "400g": 50000}
 potongan_per_toples = 5000
