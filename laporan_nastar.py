@@ -4,7 +4,7 @@ import plotly.express as px
 from datetime import datetime
 
 # Load dataset
-file_path = "data\Laporan Nastar3.xlsx"
+file_path = "data/Laporan Nastar3.xlsx"
 xls = pd.ExcelFile(file_path)
 df_sales = pd.read_excel(xls, sheet_name="Sheet1")
 df_costs = pd.read_excel(xls, sheet_name="Sheet2")
